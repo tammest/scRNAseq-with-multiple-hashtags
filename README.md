@@ -3,11 +3,7 @@
 ### Overview:
 This repository works in R on demultiplexing multiple hashtags 
 
-- **Creating Seurat Object**
-- **Determining the Number of Clusters** 
-- **Demultiplexing**
-- **Visualization**
-
+![Workflow](figures/hashtagmethod.png)
 ---
 
 ### Additional Enhancements:
