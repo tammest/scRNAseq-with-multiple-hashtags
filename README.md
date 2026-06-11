@@ -3,7 +3,7 @@
 ### Overview:
 This repository works in R on demultiplexing multiple hashtags 
 
-![Workflow](figures/hashtagmethod.png)
+![Workflow](figures/hashtag.png)
 ---
 
 ### Additional Enhancements:
