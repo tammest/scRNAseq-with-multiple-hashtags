@@ -1,7 +1,4 @@
-```r
 # ============================================================
-# 
-#
 # Add antibody and lipid hashtag assays to the QC-filtered
 # Seurat object, normalize each HTO assay using CLR, and run
 # hashtag demultiplexing separately for antibody and lipid tags.
