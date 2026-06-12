@@ -1,4 +1,3 @@
-```r
 # ============================================================
 # Create a Seurat object from Cell Ranger output, separate RNA,
 # antibody hashtag, and lipid hashtag count matrices, perform
@@ -169,4 +168,4 @@ write.csv(
 )
 
 print("Saved QC-filtered Seurat object and filtered HTO matrices.")
-```
+
