@@ -1,6 +1,4 @@
 # ============================================================
-# 
-#
 # Run PCA, select PCs, perform clustering, and generate UMAP
 # embeddings for the full Seurat object and for phenotype-only
 # cells.
