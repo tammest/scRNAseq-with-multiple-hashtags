@@ -1,7 +1,5 @@
 ```r
 # ============================================================
-# 
-#
 # Create a Seurat object from Cell Ranger output, separate RNA,
 # antibody hashtag, and lipid hashtag count matrices, perform
 # RNA QC, filtering, normalization, variable feature selection,
