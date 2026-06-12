@@ -2,8 +2,6 @@
 
 ![Workflow](figures/hashtag.png)
 
-# Lipid and Antibody Hashtag Demultiplexing Analysis
-
 ## Overview
 
 This repository contains a single-cell RNA-seq analysis workflow for experiments using both lipid and antibody hashtags. The pipeline was used to assign cells to experimental phenotypes, perform clustering, identify marker genes, and compare transcriptional differences between phenotypes.
