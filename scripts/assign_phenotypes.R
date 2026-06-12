@@ -1,6 +1,4 @@
 # ============================================================
-# 03_assign_phenotypes.R
-#
 # Assign phenotype labels using combined lipid and antibody
 # hashtag classifications.
 # ============================================================
