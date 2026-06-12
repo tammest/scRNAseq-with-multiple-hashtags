@@ -6,6 +6,30 @@
 
 This repository contains a single-cell RNA-seq analysis workflow for experiments using both lipid and antibody hashtags. The pipeline was used to assign cells to experimental phenotypes, perform clustering, identify marker genes, and compare transcriptional differences between phenotypes.
 
+This workflow was developed for multiplexed single-cell RNA-seq experiments using combined lipid and antibody hashtag labeling strategies and can be adapted for similar studies.
+
+## Repository Structure
+
+```text
+.
+├── scripts/
+│   ├── create_seurat_object.R
+│   ├── demultiplex_lipid_antibody_hashtags.R
+│   ├── assign_phenotypes.R
+│   ├── clustering_umap.R
+│   ├── marker_analysis.R
+│   └── go_enrichment.R
+│
+├── environment.yml
+└── README.md
+```
+
+## Installation
+
+```bash
+conda env create -f environment.yml
+conda activate lipid_antibody_hashtag_env
+```
 ## Workflow
 
 ### 1. Create Seurat Object
@@ -50,32 +74,6 @@ This repository contains a single-cell RNA-seq analysis workflow for experiments
 - Perform GO enrichment analysis
 - Export enriched pathways and gene sets
 
-## Repository Structure
-
-```text
-.
-├── scripts/
-│   ├── create_seurat_object.R
-│   ├── demultiplex_lipid_antibody_hashtags.R
-│   ├── assign_phenotypes.R
-│   ├── clustering_umap.R
-│   ├── marker_analysis.R
-│   └── go_enrichment.R
-│
-├── environment.yml
-└── README.md
-```
-
-## Installation
-
-```bash
-conda env create -f environment.yml
-conda activate lipid_antibody_hashtag_env
-```
-
-## Notes
-
-This workflow was developed for multiplexed single-cell RNA-seq experiments using combined lipid and antibody hashtag labeling strategies and can be adapted for similar studies.
 ---
 
 ### Additional Enhancements:
