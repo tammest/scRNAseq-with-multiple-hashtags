@@ -1,0 +1,46 @@
+name: lipid_antibody_hashtag_env
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - r-base=4.3
+
+  # Core analysis
+  - r-seurat
+  - r-seuratobject
+  - r-tidyverse
+  - r-dplyr
+  - r-data.table
+
+  # Plotting
+  - r-ggplot2
+  - r-ggridges
+  - r-ggforce
+  - r-ggalluvial
+  - r-ggsci
+  - r-rcolorbrewer
+  - r-circlize
+
+  # Utilities
+  - r-openxlsx
+  - r-remotes
+  - r-glue
+
+  # Single-cell
+  - r-harmony
+  - r-umap
+  - bioconductor-singlecellexperiment
+  - bioconductor-scran
+
+  # Enrichment
+  - bioconductor-clusterprofiler
+  - bioconductor-org.mm.eg.db
+
+  # File formats
+  - r-hdf5r
+
+  # Optional
+  - pip
